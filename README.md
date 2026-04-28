@@ -51,7 +51,7 @@ py -m playwright install
 
 Execute the following command in the terminal:
 
-py test_automation.py --excel "Assignment 1 - Test cases(IT23848184).xlsx" --sheet "TestCases" --input-col "Input" --expected-col "Expected output" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+py test_automation(IT23848184).py --excel "Assignment 1 - Test cases(IT23848184).xlsx" --sheet "TestCases" --input-col "Input" --expected-col "Expected output" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 
 ---
 
