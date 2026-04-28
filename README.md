@@ -39,11 +39,11 @@ Before running the tests, make sure the following software is installed:
 
 Open a terminal inside the project folder and run:
 
-pip install playwright pandas openpyxl
+py -m pip install playwright openpyxl
 
 Then install the required browser for Playwright:
 
-playwright install
+py -m playwright install
 
 ---
 
